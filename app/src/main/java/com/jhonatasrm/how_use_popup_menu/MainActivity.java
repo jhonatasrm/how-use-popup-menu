@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         }else if (menuItem.getItemId() == R.id.previous){
             Toast.makeText(this, "PREVIOUS", Toast.LENGTH_SHORT).show();
             return true;
+        }else if (menuItem.getItemId() == R.id.reload){
+            Toast.makeText(this, “RELOAD”, Toast.LENGTH_SHORT).show();
+            return true;
         }
         return false;
     }
